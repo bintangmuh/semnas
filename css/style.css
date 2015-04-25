@@ -19,9 +19,14 @@
 	margin-bottom: 0px;
 	transition: 0.1s;
 }
-.nav li.active, .nav li:hover {
-	margin-top: -3px;
+.nav li.active {
 	border-bottom: 3px #EB9D1C solid;
+}
+.nav li:hover {
+	border-bottom: 3px #EB9D1C solid;
+}
+.nav li a:hover {
+	background-color: transparent;
 }
 .navbar-toggle {
 	border: 1px #EB9D1C solid;
