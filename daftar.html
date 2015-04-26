@@ -50,16 +50,18 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<ul role="tablist" class="text-center">
-			    <li role="presentation" class="yesno"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Online</a></li>
-			    <li role="presentation" class="yesno"><a href="#profil" aria-controls="profil" role="tab" data-toggle="tab">Offline</a></li>
+			<h3 class="text-center">Which one do you Like?</h3>
+			<hr class="orange">
+			<ul role="tablist" class="text-center" style="padding:0px">
+			    <li role="presentation" class="yesno on"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Online</a></li>
+			    <li role="presentation" class="yesno off"><a href="#profil" aria-controls="profil" role="tab" data-toggle="tab">Offline</a></li>
 			 </ul>
 			</div>
 		</div>
 		<div class="tab-content">
 			<div role="tabpanel" class="tab-pane fade" id="home">
-				<div class="container content-nabrak">
-					<h3>Pendaftaran Online</h3>
+				<div class="container content-nabrak on" >
+					<h3 style="padding-left:15px; margin-top: 10px;">Pendaftaran Online</h3>
 					<ul>
 						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -77,8 +79,8 @@
 				</div>
 			</div>
 			<div role="tabpanel" class="tab-pane fade" id="profil">
-				<div class="container content-nabrak">
-					<h3>Pendaftaran Offline</h3>
+				<div class="container content-nabrak off">
+					<h3 style="padding-left:15px; margin-top: 10px;">Pendaftaran Offline</h3>
 					<ul>
 						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -95,6 +97,25 @@
 					</ul>
 				</div>
 			</div>
+		</div>
+		<div class="container content-nabrak">
+		<h3>Form Pendaftaran</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<fieldset>
+				<legend>Online Form</legend>
+				<form action="#" method="post" accept-charset="utf-8">
+				<label>Nama Depan</label>:<input class="isian" type="text" name="" value="" placeholder="Nama Depan"><br>
+				<label>Nama Belakang</label>:<input class="isian" type="text" name="" value="" placeholder="Nama Belakang"><br>
+				<label>Nomor Handphone</label>:<input class="isian" type="text" name="" value="" placeholder="Nomor Handphone yg bisa dihubungi"><br>
+				<label>Alamat</label>:<textarea class="isian" name="alamat" placeholder="Alamat Lengkap"></textarea><br>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+			</fieldset>
 		</div>
 		<h3 class="text-center"><small>Designed by <a href="http://twitter.com/bintang_muh">Bintang Muhammad</a></small></h3>
 		<!-- jQuery -->
