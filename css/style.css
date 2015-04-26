@@ -162,3 +162,38 @@ li.active > .icon-calendar, .icon-calendar:hover{
 .ishoma:hover {
 	border-left: #FF8400 5px solid;
 }
+/*daftar*/
+#textcont{
+	padding-top: 50px;
+	padding-bottom: 120px;
+	margin-bottom: -100px;
+}
+.temaorange {
+	background-color: #3F51B5;
+	color: #fff;
+}
+.temaorange h3, .temaorange p {
+	text-shadow: 1px 1px 1px #000;
+}
+.yesno {
+	list-style: none;
+	display: inline-block;
+	height: 100px;
+	width: 200px;
+	background-color: #fff;
+}
+.yesno a {
+	text-align: center;
+	display: block;
+	font-size: 50px;
+	line-height: 100px;
+	text-decoration: none;
+}
+.yesno.active {
+	background-color: #FF2828;
+	color: #fff;
+}
+.yesno.active a {
+	color: #fff;
+	text-decoration: none;
+}
