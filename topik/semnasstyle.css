@@ -1,0 +1,120 @@
+.carousel-inner .item{
+	min-height: 278px;
+}
+#seminar div center img {
+	transition: 0.2s;
+}
+#seminar div center img:hover{
+	transform: rotate(45deg);
+}
+#daftar {
+	background: #F0AD4E;
+	color: white;
+}
+#form-input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-left: 3px #fff solid;
+}
+#form-input h3 {
+	margin-top: 0px;
+}
+#form-input .btn-default {
+	margin-top: 10px;
+}
+#footer {
+	padding-top: 10px;
+	background: #F0AD4E;
+	color: white;
+}
+#footer h3 {
+	margin: 0px;
+}
+.img-border {
+	border: 2px #fff solid;
+}
+a#gallery {
+	height: 100%;
+	
+	background: #F0AD4E;
+}
+.tema {
+	background: #294E6B;
+	color: #fff;
+}
+.tema h1 {
+	text-shadow: 1px;
+}
+#headeralur {
+	padding-top: 50px;
+	padding-bottom: 70px;
+	margin-bottom: -50px;
+	position: relative;
+}
+.gbutton {
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+}
+.gbutton li {
+	list-style: none;
+	width: 48px;
+	height: 48px;
+	margin: 0px 2px;
+	display: inline-block;
+	background-color: #fff;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.23);
+	border-radius: 24px;
+	transition: 0.2s;
+}
+.gbutton li:hover {
+	background-color: #E99D23;
+}
+.gbutton li.active {
+	background-color: #E99D23;
+}
+.gbutton li a {
+	display: block;
+	height: 100%;
+	border-radius: 24px;
+}
+.icon-time {
+	background-image: url("img/ic_action_go_to_today.png");
+	transition: 0.2s;
+}
+.icon-time:hover {
+	background-image: url("img/action-today-white.png");
+}
+.icon-calendar {
+	background-image: url("img/ic_action_time.png");
+}
+.icon-calendar:hover{
+	background-image: url("img/action-time-white.png");
+}
+.content-nabrak {
+	background: #fff; 
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.23);
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.tanggalan {
+	background: #D9D7D7;
+	margin-bottom: 5px;
+	transition: 0.2s;
+	padding: 15px;
+}
+.tanggalan h3 {
+	margin: 10px 0px;
+}
+.tanggalan:hover {
+	background: #E2E1E1;
+	margin-left: 3px;
+	border-left: #2953F0 4px solid;
+}
+.jam-jelas {
+	border-left: #6D6B6B 2px solid;
+}
+.ishoma:hover {
+	border-left: #FF8400 5px solid;
+}

@@ -1,0 +1,30 @@
+.navbar {
+	background: #fff;
+	box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 6px 0px rgba(0, 0, 0, 0.12);
+	position: relative;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+.mybrand {
+	position: absolute;
+	top: -20px;
+	left: -10px;
+	padding:20px;
+	background-color: #EB9D1C;
+	border-radius: 50%;
+	box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 6px 0px rgba(0, 0, 0, 0.12);
+
+}
+.nav li {
+	transition: 0.2s;
+	margin-bottom: 0px;
+}
+.nav li:hover {
+	border-bottom: 3px #EB9D1C solid;
+	margin-top: -3px;
+}
+.navbar-toggle {
+	border: 1px #EB9D1C solid;
+	background-color: #EB9D1C;
+	color: #fff;
+}

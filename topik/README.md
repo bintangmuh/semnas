@@ -1,0 +1,2 @@
+# semnas
+Seminar Nasional Himanika
