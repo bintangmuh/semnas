@@ -9,7 +9,13 @@
 		<!-- Bootstrap CSS -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-
+		<!--Pop up CSS -->
+		<link rel="stylesheet" href="css/popup.css">
+		<!--Footer CSS -->
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+		<!--->
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -108,16 +114,96 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<fieldset>
 				<legend>Online Form</legend>
-				<form action="#" method="post" accept-charset="utf-8">
-				<label>Nama Depan</label>:<input class="isian" type="text" name="" value="" placeholder="Nama Depan"><br>
-				<label>Nama Belakang</label>:<input class="isian" type="text" name="" value="" placeholder="Nama Belakang"><br>
-				<label>Nomor Handphone</label>:<input class="isian" type="text" name="" value="" placeholder="Nomor Handphone yg bisa dihubungi"><br>
-				<label>Alamat</label>:<textarea class="isian" name="alamat" placeholder="Alamat Lengkap"></textarea><br>
+				<script type="text/javascript">var submitted=false;</script><iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='#popup';}"></iframe><form action="https://docs.google.com/forms/d/12ZV9Iv0tO0D9P1Swvwk8rx8rBUomCrZlBdWA4ThWfFk/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" accept-charset="utf-8">
+				<label for="entry_1883437947">Nama </label>:<input input type="text" name="entry.1883437947" value=""  id="entry_1883437947" dir="auto" aria-label="Nama :  " aria-required="true" required="" title=""class="isian" placeholder="Masukan nama lengkap anda"><br>
+				<label for="entry_965756570">Alamat :</label><input name="entry.965756570" id="entry_965756570" dir="auto" aria-label="Alamat  " aria-required="true" required="" class="isian" placeholder="Masukan Alamat anda"><br>
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
 			</fieldset>
 		</div>
-		<h3 class="text-center"><small>Designed by <a href="http://twitter.com/bintang_muh">Bintang Muhammad</a></small></h3>
+		<!--Footer-->
+		<!-- The content of your page would go here. -->
+		<div class="footerC">
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3><img height="100px" width="100px" src="img/hima.png"></h3>
+
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="jadwal.html">Jadwal</a>
+					·
+					<a href="daftar.html">Pendaftaran</a>
+					·
+					<a href="#">Kontak Kami</a>
+				</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>HIMANIKA FT UNY</span> Universitas Negeri Yogyakarta</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>(Bintang) +62 887 876 34543</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Himanika FT UNY</span>
+					Gedung PKM FT UNY Sayap timur, Kampus UNY Karangmalang Yogyakarta 55281
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+		</div>
+		<center><h4><small>copyright &copy; HIMANIKA UNY 2015</small></h4></center>
+		<!--Footer-->
+		<!--Pop up -->
+		<div id="closed"></div>
+			<div class="popup-wrapper" id="popup">
+				<div class="popup-container">
+					<form action="index.html" method="post" class="popup-form">
+						<h2>Data anda sudah kami terima</h2>
+						<p>Daripada hanya melihat demo untuk popup-nya saja, lebih baik masukkan juga email anda agar mendapatkan pemberitahuan saat ada update posting menarik lain seperti ini.<br/>
+						<strong>Percayalah, saya hanya akan mengirim sesuatu yang bermanfaat untuk anda :)</strong></p>
+						<div class="input-group">
+							<p> 
+							<input type="hidden" name="action" value="subscribe"> 
+							<input type="hidden" name="source" value="index.html"> 
+							<input type="hidden" name="sub-type" value="widget"> 
+							<input type="hidden" name="redirect_fragment" value="blog_subscription-2"> 
+							<input type="hidden" id="_wpnonce" name="_wpnonce" value="aaf0b68fcd"> 
+							<input type="submit" value="Submit" name="jetpack_subscriptions_widget">
+							</p>
+						</div>
+						<a class="popup-close" href="#closed">X</a>
+					</form>
+				</div>
+			</div>
 		<!-- jQuery -->
 		<script src="js/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->

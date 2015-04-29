@@ -169,7 +169,7 @@ li.active > .icon-calendar, .icon-calendar:hover{
 	margin-bottom: -100px;
 }
 .temaorange {
-	background-color: #3F51B5;
+	background-color: #5E5E61;
 	color: #fff;
 }
 .temaorange h3, .temaorange p {
@@ -234,3 +234,27 @@ label {
 .isian:focus {
 	border-bottom: 1px green solid;
 }
+#footer{
+	background-color: #E1E1DF;
+	height: 170px;
+	width: 100%;
+	border-bottom-width: 2px;
+}
+#footer2{
+	background-color: #294E6B;
+	color: white;
+	height: 170px;
+	width: 100%;
+}
+#footer3{
+	background-color: #3F51B5;
+	color: white;
+	height: 170px;
+	width: 100%;
+}
+p.deskripsi{
+	text-indent: 50px;
+}
+.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
