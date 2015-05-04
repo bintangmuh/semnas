@@ -143,7 +143,7 @@ li.active > .icon-calendar, .icon-calendar:hover{
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
 }
 .tanggalan {
-	background: #D9D7D7;
+	background: #E5E5E5;
 	margin-bottom: 5px;
 	transition: 0.2s;
 	padding: 15px;
@@ -155,6 +155,7 @@ li.active > .icon-calendar, .icon-calendar:hover{
 	background: #E2E1E1;
 	margin-left: 3px;
 	border-left: #2953F0 4px solid;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.23);
 }
 .jam-jelas {
 	border-left: #6D6B6B 2px solid;
